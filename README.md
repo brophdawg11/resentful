@@ -139,10 +139,10 @@ const reduced = resentful.reduce(data);
 
 ## Api
 
-**Resentful()**
+* **Resentful()**
   Constructor, no available arguments
 
-**registerMappers(contentType, preMapper, postMapper)**
+* **registerMappers(contentType, preMapper, postMapper)**
   Registers optional pre- and post-mappers for the given `contentType`, as indicated by `entry.sys.contentType.sys.id`
 
 ## License
