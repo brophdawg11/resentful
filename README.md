@@ -22,7 +22,7 @@
             "booleanField": false,
             "nestedConfig": {
                 "sys": {
-                    "id": "3VaTkmzJfWMEGU6eMIgAWm"
+                    "id": "3VaTkmzJfWMEGU6eMIgAWm",
                     "contentType": { "sys": { ... } },
                     "space": { "sys": { ... } },
                     ...
@@ -36,7 +36,7 @@
                     "nestedBooleanField": true,
                     "nestedLocalizedText": [{
                         "sys": {
-                            "id": "2z7fYJxYW8oUSWuO4Yi8ek"
+                            "id": "2z7fYJxYW8oUSWuO4Yi8ek",
                             "contentType": { "sys": { ... } },
                             "space": { "sys": { ... } },
                             ...
