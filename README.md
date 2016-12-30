@@ -1,5 +1,7 @@
 # Resentful
 
+  [![Build Status](https://travis-ci.org/brophdawg11/resentful.svg?branch=master)](https://travis-ci.org/brophdawg11/resentful)
+
   A tiny little utility to make Contentful API responses easier to manage
 
 ## Example
