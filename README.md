@@ -1,6 +1,6 @@
 # Resentful
 
-  A tiny little utility to make Contentful API responses easier to manage.
+  A tiny little utility to make Contentful API responses easier to manage
 
 ## Example
 
