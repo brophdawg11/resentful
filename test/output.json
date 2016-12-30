@@ -1,0 +1,77 @@
+{
+    "textField": "This is some text",
+    "textListField": [
+        "This",
+        "is",
+        "a",
+        "list",
+        "of",
+        "text"
+    ],
+    "numberField": 54321,
+    "booleanField": false,
+    "nestedConfig": {
+        "nestedTextField": "This is some nested text",
+        "nestedTextListField": [
+            "this",
+            "is",
+            "a",
+            "list",
+            "of",
+            "nested",
+            "text"
+        ],
+        "nestedNumberField": 54321,
+        "nestedBooleanField": true,
+        "nestedLocalizedText": [{
+                "slug": "nested-slug",
+                "translation": "Nested translation "
+        }, {
+            "slug": "nested-slug-2",
+            "translation": "Nested translation 2"
+        }, {
+            "slug": "nested-slug-3",
+            "translation": "Nested translation 3"
+        }],
+        "grandchildConfig": {
+            "nestedTextField": "Grandchild config text",
+            "nestedTextListField": [
+                "grand",
+                "child",
+                "text",
+                "list"
+            ],
+            "nestedNumberField": 98765,
+            "nestedBooleanField": true,
+            "nestedLocalizedText": [{
+                "slug": "text-slug",
+                "translation": "Text translation"
+            }, {
+                "slug": "text-slug-2",
+                "translation": "Text translation 2"
+            }, {
+                "slug": "text-slug-3",
+                "translation": "Test translation 3"
+            }, {
+                "slug": "nested-slug",
+                "translation": "Nested translation "
+            }, {
+                "slug": "nested-slug-2",
+                "translation": "Nested translation 2"
+            },{
+                "slug": "nested-slug-3",
+                "translation": "Nested translation 3"
+            }]
+        }
+    },
+    "localizedText": [{
+        "slug": "text-slug",
+        "translation": "Text translation"
+    }, {
+        "slug": "text-slug-2",
+        "translation": "Text translation 2"
+    }, {
+        "slug": "text-slug-3",
+        "translation": "Test translation 3"
+    }]
+}

@@ -1,0 +1,454 @@
+[
+    {
+        "sys": {
+            "id": "xrs4HpKn6KSIqWskSm8K2",
+            "revision": 2,
+            "type": "Entry",
+            "locale": "en-US",
+            "contentType": {
+                "sys": {
+                    "id": "config",
+                    "type": "Link",
+                    "linkType": "ContentType"
+                }
+            },
+            "createdAt": "2016-12-30T02:44:10.680Z",
+            "updatedAt": "2016-12-30T02:47:47.744Z",
+            "space": {
+                "sys": {
+                    "id": "64r9di5hjs50",
+                    "type": "Link",
+                    "linkType": "Space"
+                }
+            }
+        },
+        "fields": {
+            "textField": "This is some text",
+            "textListField": [
+                "This",
+                "is",
+                "a",
+                "list",
+                "of",
+                "text"
+            ],
+            "numberField": 54321,
+            "booleanField": false,
+            "nestedConfig": {
+                "sys": {
+                    "id": "3VaTkmzJfWMEGU6eMIgAWm",
+                    "revision": 1,
+                    "type": "Entry",
+                    "locale": "en-US",
+                    "contentType": {
+                        "sys": {
+                            "id": "nestedConfig",
+                            "type": "Link",
+                            "linkType": "ContentType"
+                        }
+                    },
+                    "createdAt": "2016-12-30T02:43:20.122Z",
+                    "updatedAt": "2016-12-30T02:47:29.039Z",
+                    "space": {
+                        "sys": {
+                            "id": "64r9di5hjs50",
+                            "type": "Link",
+                            "linkType": "Space"
+                        }
+                    }
+                },
+                "fields": {
+                    "nestedTextField": "This is some nested text",
+                    "nestedTextListField": [
+                        "this",
+                        "is",
+                        "a",
+                        "list",
+                        "of",
+                        "nested",
+                        "text"
+                    ],
+                    "nestedNumberField": 54321,
+                    "nestedBooleanField": true,
+                    "nestedLocalizedText": [
+                        {
+                            "sys": {
+                                "id": "2z7fYJxYW8oUSWuO4Yi8ek",
+                                "revision": 1,
+                                "type": "Entry",
+                                "locale": "en-US",
+                                "contentType": {
+                                    "sys": {
+                                        "id": "localizedText",
+                                        "type": "Link",
+                                        "linkType": "ContentType"
+                                    }
+                                },
+                                "createdAt": "2016-12-30T02:42:33.591Z",
+                                "updatedAt": "2016-12-30T02:42:40.280Z",
+                                "space": {
+                                    "sys": {
+                                        "id": "64r9di5hjs50",
+                                        "type": "Link",
+                                        "linkType": "Space"
+                                    }
+                                }
+                            },
+                            "fields": {
+                                "slug": "nested-slug",
+                                "translation": "Nested translation "
+                            }
+                        },
+                        {
+                            "sys": {
+                                "id": "5pwdt1m1iMoMuk262a6MoO",
+                                "revision": 1,
+                                "type": "Entry",
+                                "locale": "en-US",
+                                "contentType": {
+                                    "sys": {
+                                        "id": "localizedText",
+                                        "type": "Link",
+                                        "linkType": "ContentType"
+                                    }
+                                },
+                                "createdAt": "2016-12-30T02:42:43.149Z",
+                                "updatedAt": "2016-12-30T02:42:50.824Z",
+                                "space": {
+                                    "sys": {
+                                        "id": "64r9di5hjs50",
+                                        "type": "Link",
+                                        "linkType": "Space"
+                                    }
+                                }
+                            },
+                            "fields": {
+                                "slug": "nested-slug-2",
+                                "translation": "Nested translation 2"
+                            }
+                        },
+                        {
+                            "sys": {
+                                "id": "1B8CKNTzp6OaMCeEIYA2u",
+                                "revision": 1,
+                                "type": "Entry",
+                                "locale": "en-US",
+                                "contentType": {
+                                    "sys": {
+                                        "id": "localizedText",
+                                        "type": "Link",
+                                        "linkType": "ContentType"
+                                    }
+                                },
+                                "createdAt": "2016-12-30T02:42:54.317Z",
+                                "updatedAt": "2016-12-30T02:43:15.459Z",
+                                "space": {
+                                    "sys": {
+                                        "id": "64r9di5hjs50",
+                                        "type": "Link",
+                                        "linkType": "Space"
+                                    }
+                                }
+                            },
+                            "fields": {
+                                "slug": "nested-slug-3",
+                                "translation": "Nested translation 3"
+                            }
+                        }
+                    ],
+                    "grandchildConfig": {
+                        "sys": {
+                            "id": "6fJom00d9YM6i2EogSmqO8",
+                            "revision": 1,
+                            "type": "Entry",
+                            "locale": "en-US",
+                            "contentType": {
+                                "sys": {
+                                    "id": "nestedConfig",
+                                    "type": "Link",
+                                    "linkType": "ContentType"
+                                }
+                            },
+                            "createdAt": "2016-12-30T02:45:54.191Z",
+                            "updatedAt": "2016-12-30T02:46:27.561Z",
+                            "space": {
+                                "sys": {
+                                    "id": "64r9di5hjs50",
+                                    "type": "Link",
+                                    "linkType": "Space"
+                                }
+                            }
+                        },
+                        "fields": {
+                            "nestedTextField": "Grandchild config text",
+                            "nestedTextListField": [
+                                "grand",
+                                "child",
+                                "text",
+                                "list"
+                            ],
+                            "nestedNumberField": 98765,
+                            "nestedBooleanField": true,
+                            "nestedLocalizedText": [
+                                {
+                                    "sys": {
+                                        "id": "52T3uEfxviUWW0wMIQ6wOS",
+                                        "revision": 1,
+                                        "type": "Entry",
+                                        "locale": "en-US",
+                                        "contentType": {
+                                            "sys": {
+                                                "id": "localizedText",
+                                                "type": "Link",
+                                                "linkType": "ContentType"
+                                            }
+                                        },
+                                        "createdAt": "2016-12-30T02:41:40.425Z",
+                                        "updatedAt": "2016-12-30T02:41:54.431Z",
+                                        "space": {
+                                            "sys": {
+                                                "id": "64r9di5hjs50",
+                                                "type": "Link",
+                                                "linkType": "Space"
+                                            }
+                                        }
+                                    },
+                                    "fields": {
+                                        "slug": "text-slug",
+                                        "translation": "Text translation"
+                                    }
+                                },
+                                {
+                                    "sys": {
+                                        "id": "56bEjS62WkSOQwsYYi88Ya",
+                                        "revision": 1,
+                                        "type": "Entry",
+                                        "locale": "en-US",
+                                        "contentType": {
+                                            "sys": {
+                                                "id": "localizedText",
+                                                "type": "Link",
+                                                "linkType": "ContentType"
+                                            }
+                                        },
+                                        "createdAt": "2016-12-30T02:41:58.696Z",
+                                        "updatedAt": "2016-12-30T02:42:15.273Z",
+                                        "space": {
+                                            "sys": {
+                                                "id": "64r9di5hjs50",
+                                                "type": "Link",
+                                                "linkType": "Space"
+                                            }
+                                        }
+                                    },
+                                    "fields": {
+                                        "slug": "text-slug-2",
+                                        "translation": "Text translation 2"
+                                    }
+                                },
+                                {
+                                    "sys": {
+                                        "id": "2fmuXAX46IOWeEuwmiEqWE",
+                                        "revision": 1,
+                                        "type": "Entry",
+                                        "locale": "en-US",
+                                        "contentType": {
+                                            "sys": {
+                                                "id": "localizedText",
+                                                "type": "Link",
+                                                "linkType": "ContentType"
+                                            }
+                                        },
+                                        "createdAt": "2016-12-30T02:42:20.527Z",
+                                        "updatedAt": "2016-12-30T02:42:30.739Z",
+                                        "space": {
+                                            "sys": {
+                                                "id": "64r9di5hjs50",
+                                                "type": "Link",
+                                                "linkType": "Space"
+                                            }
+                                        }
+                                    },
+                                    "fields": {
+                                        "slug": "text-slug-3",
+                                        "translation": "Test translation 3"
+                                    }
+                                },
+                                {
+                                    "sys": {
+                                        "id": "2z7fYJxYW8oUSWuO4Yi8ek",
+                                        "revision": 1,
+                                        "type": "Entry",
+                                        "locale": "en-US",
+                                        "contentType": {
+                                            "sys": {
+                                                "id": "localizedText",
+                                                "type": "Link",
+                                                "linkType": "ContentType"
+                                            }
+                                        },
+                                        "createdAt": "2016-12-30T02:42:33.591Z",
+                                        "updatedAt": "2016-12-30T02:42:40.280Z",
+                                        "space": {
+                                            "sys": {
+                                                "id": "64r9di5hjs50",
+                                                "type": "Link",
+                                                "linkType": "Space"
+                                            }
+                                        }
+                                    },
+                                    "fields": {
+                                        "slug": "nested-slug",
+                                        "translation": "Nested translation "
+                                    }
+                                },
+                                {
+                                    "sys": {
+                                        "id": "5pwdt1m1iMoMuk262a6MoO",
+                                        "revision": 1,
+                                        "type": "Entry",
+                                        "locale": "en-US",
+                                        "contentType": {
+                                            "sys": {
+                                                "id": "localizedText",
+                                                "type": "Link",
+                                                "linkType": "ContentType"
+                                            }
+                                        },
+                                        "createdAt": "2016-12-30T02:42:43.149Z",
+                                        "updatedAt": "2016-12-30T02:42:50.824Z",
+                                        "space": {
+                                            "sys": {
+                                                "id": "64r9di5hjs50",
+                                                "type": "Link",
+                                                "linkType": "Space"
+                                            }
+                                        }
+                                    },
+                                    "fields": {
+                                        "slug": "nested-slug-2",
+                                        "translation": "Nested translation 2"
+                                    }
+                                },
+                                {
+                                    "sys": {
+                                        "id": "1B8CKNTzp6OaMCeEIYA2u",
+                                        "revision": 1,
+                                        "type": "Entry",
+                                        "locale": "en-US",
+                                        "contentType": {
+                                            "sys": {
+                                                "id": "localizedText",
+                                                "type": "Link",
+                                                "linkType": "ContentType"
+                                            }
+                                        },
+                                        "createdAt": "2016-12-30T02:42:54.317Z",
+                                        "updatedAt": "2016-12-30T02:43:15.459Z",
+                                        "space": {
+                                            "sys": {
+                                                "id": "64r9di5hjs50",
+                                                "type": "Link",
+                                                "linkType": "Space"
+                                            }
+                                        }
+                                    },
+                                    "fields": {
+                                        "slug": "nested-slug-3",
+                                        "translation": "Nested translation 3"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
+            "localizedText": [
+                {
+                    "sys": {
+                        "id": "52T3uEfxviUWW0wMIQ6wOS",
+                        "revision": 1,
+                        "type": "Entry",
+                        "locale": "en-US",
+                        "contentType": {
+                            "sys": {
+                                "id": "localizedText",
+                                "type": "Link",
+                                "linkType": "ContentType"
+                            }
+                        },
+                        "createdAt": "2016-12-30T02:41:40.425Z",
+                        "updatedAt": "2016-12-30T02:41:54.431Z",
+                        "space": {
+                            "sys": {
+                                "id": "64r9di5hjs50",
+                                "type": "Link",
+                                "linkType": "Space"
+                            }
+                        }
+                    },
+                    "fields": {
+                        "slug": "text-slug",
+                        "translation": "Text translation"
+                    }
+                },
+                {
+                    "sys": {
+                        "id": "56bEjS62WkSOQwsYYi88Ya",
+                        "revision": 1,
+                        "type": "Entry",
+                        "locale": "en-US",
+                        "contentType": {
+                            "sys": {
+                                "id": "localizedText",
+                                "type": "Link",
+                                "linkType": "ContentType"
+                            }
+                        },
+                        "createdAt": "2016-12-30T02:41:58.696Z",
+                        "updatedAt": "2016-12-30T02:42:15.273Z",
+                        "space": {
+                            "sys": {
+                                "id": "64r9di5hjs50",
+                                "type": "Link",
+                                "linkType": "Space"
+                            }
+                        }
+                    },
+                    "fields": {
+                        "slug": "text-slug-2",
+                        "translation": "Text translation 2"
+                    }
+                },
+                {
+                    "sys": {
+                        "id": "2fmuXAX46IOWeEuwmiEqWE",
+                        "revision": 1,
+                        "type": "Entry",
+                        "locale": "en-US",
+                        "contentType": {
+                            "sys": {
+                                "id": "localizedText",
+                                "type": "Link",
+                                "linkType": "ContentType"
+                            }
+                        },
+                        "createdAt": "2016-12-30T02:42:20.527Z",
+                        "updatedAt": "2016-12-30T02:42:30.739Z",
+                        "space": {
+                            "sys": {
+                                "id": "64r9di5hjs50",
+                                "type": "Link",
+                                "linkType": "Space"
+                            }
+                        }
+                    },
+                    "fields": {
+                        "slug": "text-slug-3",
+                        "translation": "Test translation 3"
+                    }
+                }
+            ]
+        }
+    }
+]
